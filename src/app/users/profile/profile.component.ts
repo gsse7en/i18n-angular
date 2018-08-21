@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { ActivatedRoute } from '@angular/router';
+import 'rxjs/add/operator/map'
 
 @Component({
   selector: 'app-profile',
